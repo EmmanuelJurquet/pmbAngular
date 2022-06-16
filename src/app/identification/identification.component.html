@@ -1,0 +1,10 @@
+<div class="identification">
+	<h2>Pay My Buddy</h2>
+	<p>Email</p>
+	<input [(ngModel)]= "email" type="text" name="email" />
+	<p>Password</p>
+	<input [(ngModel)]="password" class="password" type="password" name="password" />
+	<p>Remember me</p>
+	<input type="checkbox" />
+	<button (click)="sendAuth()">Login</button>
+</div>

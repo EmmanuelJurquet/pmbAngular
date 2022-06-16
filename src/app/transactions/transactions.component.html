@@ -1,0 +1,40 @@
+<app-navigation></app-navigation>
+<div class="transaction-area">
+
+	<div class ="sendMoneyAddConnection">
+		<span class="sendMoney">Send Money</span>
+		<button>Add Connection</button>
+	</div>
+
+	<div class="sendMoneyBlock"> 
+		<select [(ngModel)]="friendSelected" style="width: 150px;">
+			<option value="-1"></option>
+			<option *ngFor="let friend of lFriend" [value]="friend.id">{{friend.fullName}}</option>
+		</select>
+		<input [(ngModel)]="amount" type="number" name="amount" id="amount" placeholder="Select an Amount" size="30" />
+		<input type="button" value="Payment" (click)="payment()"> 
+	</div>
+			
+	<div class="Transactions">
+		<span class="transactions">My Transactions</span>
+	</div>
+
+	<div class="transactions-view">
+		<table style="width: 100%;">
+			<thead class="descriptionBlock" style="display: table-header-group;height: 70px;">
+				<tr>
+					<th colspan="1" class="Connections">Connections</th>
+					<th colspan="1" class="Description">Description</th>
+					<th colspan="1" class="Amount">Amount</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let transaction of transactions">
+					<td>{{transaction.receiverfullname}}</td>
+					<td>{{transaction.designation}}</td>
+					<td>{{transaction.amount}}</td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

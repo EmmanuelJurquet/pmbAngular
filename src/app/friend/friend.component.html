@@ -1,0 +1,56 @@
+<body>
+		<header>
+
+			<div id= "home">
+
+				<div class="pmb-element">Pay My Buddy</div>	
+				<div class="home-element">Home</div>
+				<div class="transfer-element">Transfer</div>
+				<div class="profile-element">Profile</div>
+				<div class ="contact-element">Contact</div>
+				<div class="log-off-element">Log-Off</div>
+			
+			</div>
+
+		</header>
+
+			<div id="home-transfert">
+
+				<span class="hover">Home</span>
+				<a>   /  </a>
+                <span class="hover">Transfer</span>
+                <br />
+                <br />
+                <br />
+                <span class="find-contact">
+				 <input [(ngModel)]="newFriend"  type ="text" name ="find-contact" placeholder="Enter E-Mail" id ="box" size="30" />
+				 
+				 <input type ="button"  value="Search someone" (click)="addFriends()">
+				
+                </span>
+				</div>
+			
+		   <div class="Contact-view">
+		<table style="width: 100%;">
+			<thead class="descriptionBlock" style="display: table-header-group; height: 70px;">
+				<tr>
+					<th colspan="1" class="Name">Name</th>
+					<th colspan="1" class="Email">Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let friends of friends">
+					<td>{{friends.fullName}}</td>
+					<td>{{friends.email}}</td>
+				</tr>	
+			</tbody>
+		</table>
+
+               
+            
+	
+
+			
+	
+
+

@@ -1,0 +1,136 @@
+header{
+		
+		height: 100px;
+
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+		margin-top: 25px;
+
+	}
+
+	#home{
+
+		display: flex;
+		justify-content: flex-end;
+		
+	}
+
+	.pmb-element{
+
+		font-size: 16px;
+		
+
+		color : white;
+		background-color: rgb(119, 191, 81);
+
+		border: 1px black solid;
+		border-radius: 7px;
+
+		margin-right: 1250px;
+		margin-left: 50px;
+		
+		
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		
+	}
+
+	.home-element{
+
+		margin-right: 20px;
+		
+	}
+
+	.home-element:hover{
+
+		color:rgb(0, 118, 217);
+
+	}
+
+	.transfer-element{
+
+		padding-right: 25px;
+
+	}
+
+	.transfer-element:hover{
+
+		color:rgb(0, 118, 217);
+
+	}
+
+	.profile-element{
+
+		padding-right: 25px;
+
+	}
+
+	.profile-element:hover{
+
+		color:rgb(0, 118, 217);
+
+	}
+
+	.contact-element{
+
+		padding-right: 25px;
+
+	}
+
+	.contact-element:hover{
+
+		color:rgb(0, 118, 217);
+
+	}
+
+	.log-off-element{
+
+		padding-right: 25px;
+	}
+
+	.log-off-element:hover{
+
+		color:rgb(0, 118, 217);
+
+	}
+
+	#home-transfert{
+		
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(232, 227, 227);
+
+		height:1a55px;
+		width:100%;
+
+		
+
+		padding-top: 55px;
+		padding-left : 54px;
+		padding-bottom: 55px;
+		border-radius: 10px;
+		
+	}
+
+	.hover:hover{
+
+		color:rgb(0, 118, 217);
+
+	}
+
+	#box{
+
+		display: block;
+		margin-left: auto;
+		margin-right:auto ;
+
+	}
+	
+	#find-contact{
+
+
+
+	}
+
